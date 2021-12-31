@@ -19,6 +19,7 @@ const [toggleSideBar, setToggleSideBar] = useState(false)
           </div>
           <div className='flex md:hidden flex-row'>
             <HiMenu fontSize={40} className='cursor-pointer' onClick={ () => setToggleSideBar(false) }/>
+            Link
           </div>
         </div>
     )
